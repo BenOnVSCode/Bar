@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f3f8;
+    display: grid;
+}
+
+.button {
+    text-align: center;
+    margin: 355px 0 0 0;
+    cursor: pointer;
+    color: #393b44;
+    padding: 0;
+    font-size: 25px;
+    color: #393b44;
+    transition: all 0.1s linear 0.1s;
+}
+.bar {
+    position: absolute;
+    left: 50%;
+    cursor: pointer;
+    margin: 355px 0 0 0;
+    visibility: hidden;
+    font-size: 25px;
+    color: #393b44;
+    transition: all 0.1s linear 0.1s;
+}
+.barenside {
+    position: relative;
+    left: -50%
+}
+.barOpen {
+    text-align: center;
+    margin: 15px 5px 0 0;
+}
+.barOpen {
+    visibility: hidden;
+}
+.barOpen > i {
+    margin: 0 35px 0 0 ;
+    font-size: 25px;
+    padding: 10px;
+    background: #d6e0f0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #393b44;
+    box-shadow: 0.8px 0.8px 0.8px 0.8px #8d93ab;
+    transition: font-size 0.3s ease;
+    
+}
+.barOpen > i:hover {
+    font-size: 28px;
+    opacity: 70%;
+}
+#last {
+    margin: 0;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+footer > a >i {
+    text-decoration: none;
+    color: #9c9c9c;
+    font-size: 25px;
+    margin: 0 15px 10px 0;
+    transition: all 0.5s ease;
+}
+footer > a >i:hover {
+    color: rgb(123, 136, 163);
+        
+}
